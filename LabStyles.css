@@ -1,0 +1,83 @@
+/*This is the were most or all of my styling would be in */
+
+/* This styles the body of my website */
+body{
+	background-image: url("Cyber1.jpg");
+}
+/* This styles the first div */
+#one{
+	width: 75%;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: white;
+
+}
+/* This styles the heading of the web page */
+h1 {
+    position: relative;
+    color:green;
+	font-size: 40 px;
+}
+h1:before {
+    content: attr(data-text);
+    position: relative;
+	left:31.16%;
+    overflow: hidden;
+    max-width: 20em;
+    white-space: nowrap;
+    color:green;
+    animation: loading 6s linear infinite;
+}
+@keyframes loading {
+    0% {
+        max-width: 0;
+    }
+}
+/* This styles the second div */
+#two{
+	width: 75%;
+	margin-left:auto;
+	margin-right:auto;
+	background-color: white;
+	border: 3px solid green;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;	
+}
+/* This styles a p tag with the id p1 */
+#p1{
+	text-align: center;
+}
+/* This styles the third div */
+#three{
+	width: 60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* This styles the image */
+img{
+	width:75px;
+	height:75px;
+	position: relative;
+	left: 47%;
+	border: 1px solid green;
+}
+/* This styles the table */
+table th{
+	text-align:center;
+	color: green;
+	padding: 4px 30px 4px 8 px;
+}
+table{
+	border: 2px solid green;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#ani{
+	width:400px;
+	height:250px;
+	border-radius: 5px;
+}
